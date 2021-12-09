@@ -1,0 +1,21 @@
+
+I. Entity diagrams
+II. Entities
+1.Enitiy 
+
+edit entity
+Indexes: 
+use case:
+- speed up data retreival
+- avoid duplicates
+
+PersonWithUniqueRolePerMovie: A Unique Index over the
+attributes (PersonId, MovieId, PersonRoleId), in the PersonMovieRole Entity, so that a
+person cannot have the same role in the same movie
+
+2.Attribute:
+
+
+-Mandatory: Value Required 
+
+3.Record
