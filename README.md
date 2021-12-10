@@ -1,1 +1,1 @@
-OutSystems Developing Web Apps![Progress](https://progress-bar.dev/45/)
+OutSystems Developing Web Apps![Progress](https://progress-bar.dev/52/)
