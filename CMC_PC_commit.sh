@@ -1,5 +1,6 @@
 #!/bin/sh
-cd C:\Users\tmhieu1\Desktop\process\commit_sources
+cd C:/Users/tmhieu1/Desktop/process
+
 git add --all
 timestamp() {
   date +"at %H:%M:%S on %d/%m/%Y"
