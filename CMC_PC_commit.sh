@@ -1,5 +1,5 @@
 #!/bin/sh
-cd c:/xampp/htdocs/demoproject
+cd C:\Users\tmhieu1\Desktop\process\commit_sources
 git add --all
 timestamp() {
   date +"at %H:%M:%S on %d/%m/%Y"
