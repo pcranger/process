@@ -1,0 +1,11 @@
+1. 
+No such file found
+
+4a. 
+SELECT Driver.name,Car.Make, Car.Model
+FROM Driver
+INNER JOIN Car ON Driver.ID = Car.ID
+WHERE Driver = 'Civic';
+
+4b.
+
