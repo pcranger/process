@@ -4,8 +4,35 @@ No such file found
 4a. 
 SELECT Driver.name,Car.Make, Car.Model
 FROM Driver
-INNER JOIN Car ON Driver.ID = Car.ID
-WHERE Driver = 'Civic';
+INNER JOIN Car ON Driver.Car = Car.ID
+WHERE Model = 'Civic';
+
 
 4b.
+SELECT Model, Make, Count(Name) AS Count
+FROM Driver
+INNER JOIN Car ON Driver.Car = Car.ID
+GROUP BY Model
 
+5
+https://www.geeksforgeeks.org/create-immutable-class-java/
+
+All data fields must be private 
+there can't be any setter methods
+No getter methods can return a data field that is mutable (HashMap)
+
+6
+a) Drawback: Hard to read. Unefficient (not sure). Hard to debug, hard to maintain
+b) code. alternative: https://stackoverflow.com/a/8664818 
+
+7 
+switch statement or Strategy pattern using HashMap?
+
+Strategy pattern:
+https://stackoverflow.com/a/28917340
+https://stackoverflow.com/questions/59746652/strategy-pattern-or-no-strategy-pattern
+8
+Use Strategy pattern
+thread related?
+9
+regex?

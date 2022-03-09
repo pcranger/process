@@ -1,0 +1,26 @@
+
+CREATE TABLE IF NOT EXISTS `Car` (
+  `ID` INT unsigned NOT NULL,
+  `Make` varchar(200) NOT NULL,
+  `Model` varchar(200) NOT NULL,
+  PRIMARY KEY (`ID`)
+) DEFAULT CHARSET=utf8;
+INSERT INTO `Car` (`ID`, `Make`, `Model`) VALUES
+  ('1000', 'Toyota', 'Camry'),
+  ('1001', 'Toyota', 'Harrier'),
+  ('1002', 'Honda', 'Accord'),
+  ('1003', 'Honda', 'Civic');
+  
+CREATE TABLE IF NOT EXISTS `Driver` (
+  `ID` INT unsigned NOT NULL,
+  `Name` varchar(200) NOT NULL,
+  `Car`INT unsigned NOT NULL,
+  PRIMARY KEY (`ID`),
+  FOREIGN KEY(`Car`) REFERENCES Car(ID)
+) DEFAULT CHARSET=utf8;
+INSERT INTO `Driver` (`ID`, `Name`, `Car`) VALUES
+  ('2000', 'Leslie', '1001'),
+  ('2001', 'Federick Shin', '1002'),
+  ('2002', 'Lee Qing', '1001'),
+  ('2003', 'Hieu', '1003');
+
