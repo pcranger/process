@@ -1,0 +1,7 @@
+Check if String a "is made" from String b:
+
+boolean bool1 = new String[a.length()]//create a boolean array of String a
+for String i: String a
+	for String j : String b
+		if a[i] == b[j]
+		
