@@ -1,0 +1,12 @@
+server:
+  port: 8081
+spring:
+  cloud:
+    stream:
+      bindings:
+        orders:
+          destination: appname #exchange
+          group: orders
+        payments:
+          destination: appname
+          group: payments

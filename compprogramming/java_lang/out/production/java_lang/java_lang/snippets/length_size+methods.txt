@@ -1,0 +1,4 @@
+int,char array => array.length
+String => array.length()
+
+HashMap,ArrayList => array.size()
