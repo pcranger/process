@@ -1,4 +1,4 @@
-package java_lang.leetcode_patterns.easy.two_pointers;
+package java_lang.leetcode_problems.patterns.two_pointers;
 
 import java.util.HashMap;
 import java.util.Map;

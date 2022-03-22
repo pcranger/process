@@ -1,4 +1,4 @@
-package java_lang.problems_and_solutions;
+package java_lang.leetcode_problems.unsorted.easy;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package java_lang.leetcode_patterns.easy.arrays;
+package java_lang.leetcode_problems.unsorted.easy;
 
 import java.util.Arrays;
 

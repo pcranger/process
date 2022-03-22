@@ -1,4 +1,4 @@
-package java_lang.leetcode_patterns.easy.arrays;
+package java_lang.Explore.arrays.Insertion;
 
 public class DuplicateZerosSol {
     public static void main(String[] args) {
