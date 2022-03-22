@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+//class component
 class Message extends Component {
   constructor() {
     super(); //required because we use component class, has to be made to call parent component
@@ -12,16 +12,16 @@ class Message extends Component {
     return (
       <div>
         <h1>{this.state.message}</h1>
-        <button onClick={()=> this.changeMessage()}>Subscribe</button>
+        <button onClick={() => this.changeMessage()}>Subscribe</button>
 
       </div>
     );
   }
 
-  changeMessage(){
-      this.setState({
-          message:'Thank you for subscribing'
-      })
+  changeMessage() {
+    this.setState({
+      message: 'Thank you for subscribing'
+    })
   }
 }
 
