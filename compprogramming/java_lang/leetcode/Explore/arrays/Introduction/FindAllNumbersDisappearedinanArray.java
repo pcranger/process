@@ -1,4 +1,4 @@
-package java_lang.leetcode_patterns.easy.arrays;
+package java_lang.Explore.arrays.Introduction;
 
 import java.util.ArrayList;
 import java.util.Arrays;
