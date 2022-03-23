@@ -1,4 +1,4 @@
-package java_lang.Explore.array_and_string.Introduction;
+package java_lang.Explore.array_and_string.IntroArray;
 
 public class Pivot {
     public static void main(String[] args) {
