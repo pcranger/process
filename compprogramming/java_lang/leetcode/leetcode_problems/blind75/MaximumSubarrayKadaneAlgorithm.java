@@ -1,6 +1,6 @@
 package java_lang.leetcode_problems.blind75;
 
-public class MaximumSubarray {
+public class MaximumSubarrayKadaneAlgorithm {
     public static void main(String[] args) {
     int[] A = new int[] {-2,1,-3,4,-1,2,1,-5,4};
         System.out.println(maxSubArray(A));
