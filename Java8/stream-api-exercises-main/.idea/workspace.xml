@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="96762016-94c3-40f9-ae40-5df611c7d4af" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blob/Data_Model.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/space/gavinklfong/demo/streamapi/AppCommandRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/space/gavinklfong/demo/streamapi/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/space/gavinklfong/demo/streamapi/models/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/space/gavinklfong/demo/streamapi/models/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/space/gavinklfong/demo/streamapi/models/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/space/gavinklfong/demo/streamapi/repos/CustomerRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/space/gavinklfong/demo/streamapi/repos/OrderRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/space/gavinklfong/demo/streamapi/repos/ProductRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/table_script.ddl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/site/site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/space/gavinklfong/demo/streamapi/StreamApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/streamapi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../compprogramming/java_lang/leetcode/study_plan/day1/ContainsDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../compprogramming/java_lang/leetcode/study_plan/day1/MaximumSubarray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../compprogramming/java_lang/leetcode/study_plan/day2/MergeSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../compprogramming/java_lang/leetcode/study_plan/day2/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../compprogramming/java_lang/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../compprogramming/java_lang/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../compprogramming/java_lang/leetcode/leetcode_problems/blind75/ContainsDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../compprogramming/java_lang/leetcode/leetcode_problems/blind75/ContainsDuplicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../compprogramming/java_lang/leetcode/leetcode_problems/blind75/MaximumSubarrayKadaneAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../compprogramming/java_lang/leetcode/leetcode_problems/blind75/MaximumSubarrayKadaneAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../compprogramming/java_lang/leetcode/leetcode_problems/patterns/two_pointers/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../compprogramming/java_lang/leetcode/leetcode_problems/patterns/two_pointers/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../compprogramming/java_lang/out/production/java_lang/java_lang/leetcode_problems/blind75/BuyStock.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2B9274GgdczYUlhY9TJWaFXoUXq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="spring" />
+  </component>
+  <component name="RunManager" selected="JUnit.StreamApiTest">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="streamapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="space.gavinklfong.demo.streamapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="space.gavinklfong.demo.streamapi" />
+      <option name="MAIN_CLASS_NAME" value="space.gavinklfong.demo.streamapi.StreamApiTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamApiTest.exercise1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="streamapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="space.gavinklfong.demo.streamapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="space.gavinklfong.demo.streamapi" />
+      <option name="MAIN_CLASS_NAME" value="space.gavinklfong.demo.streamapi.StreamApiTest" />
+      <option name="METHOD_NAME" value="exercise1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamApiTest.exercise1a" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="streamapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="space.gavinklfong.demo.streamapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="space.gavinklfong.demo.streamapi" />
+      <option name="MAIN_CLASS_NAME" value="space.gavinklfong.demo.streamapi.StreamApiTest" />
+      <option name="METHOD_NAME" value="exercise1a" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="streamapi" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="space.gavinklfong.demo.streamapi.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.StreamApiTest" />
+        <item itemvalue="JUnit.StreamApiTest.exercise1a" />
+        <item itemvalue="JUnit.StreamApiTest.exercise1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\admin\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="96762016-94c3-40f9-ae40-5df611c7d4af" name="Default Changelist" comment="" />
+      <created>1656303809195</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656303809195</updated>
+      <workItem from="1656303812525" duration="6888000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="179" key="#Assign_Data_Sources" timestamp="1656304198920">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="179" key="#Assign_Data_Sources/-1366.206.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1656304198920" />
+    <state width="1323" height="244" key="GridCell.Tab.0.bottom" timestamp="1656322757312">
+      <screen x="-1366" y="206" width="1366" height="728" />
+    </state>
+    <state width="1323" height="244" key="GridCell.Tab.0.bottom/-1366.206.1366.728/0.0.1920.1040@-1366.206.1366.728" timestamp="1656322757312" />
+    <state width="1877" height="322" key="GridCell.Tab.0.bottom/-1366.206.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1656305024710" />
+    <state width="1323" height="244" key="GridCell.Tab.0.center" timestamp="1656322757312">
+      <screen x="-1366" y="206" width="1366" height="728" />
+    </state>
+    <state width="1323" height="244" key="GridCell.Tab.0.center/-1366.206.1366.728/0.0.1920.1040@-1366.206.1366.728" timestamp="1656322757312" />
+    <state width="1877" height="322" key="GridCell.Tab.0.center/-1366.206.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1656305024710" />
+    <state width="1323" height="244" key="GridCell.Tab.0.left" timestamp="1656322757312">
+      <screen x="-1366" y="206" width="1366" height="728" />
+    </state>
+    <state width="1323" height="244" key="GridCell.Tab.0.left/-1366.206.1366.728/0.0.1920.1040@-1366.206.1366.728" timestamp="1656322757312" />
+    <state width="1877" height="322" key="GridCell.Tab.0.left/-1366.206.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1656305024710" />
+    <state width="1323" height="244" key="GridCell.Tab.0.right" timestamp="1656322757312">
+      <screen x="-1366" y="206" width="1366" height="728" />
+    </state>
+    <state width="1323" height="244" key="GridCell.Tab.0.right/-1366.206.1366.728/0.0.1920.1040@-1366.206.1366.728" timestamp="1656322757312" />
+    <state width="1877" height="322" key="GridCell.Tab.0.right/-1366.206.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1656305024710" />
+    <state width="1877" height="322" key="GridCell.Tab.1.bottom" timestamp="1656304976215">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="322" key="GridCell.Tab.1.bottom/-1366.206.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1656304976215" />
+    <state width="1877" height="322" key="GridCell.Tab.1.center" timestamp="1656304976215">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="322" key="GridCell.Tab.1.center/-1366.206.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1656304976215" />
+    <state width="1877" height="322" key="GridCell.Tab.1.left" timestamp="1656304976215">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="322" key="GridCell.Tab.1.left/-1366.206.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1656304976215" />
+    <state width="1877" height="322" key="GridCell.Tab.1.right" timestamp="1656304976215">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="322" key="GridCell.Tab.1.right/-1366.206.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1656304976215" />
+  </component>
+</project>
